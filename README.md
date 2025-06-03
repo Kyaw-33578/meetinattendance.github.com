@@ -1,2 +1,2 @@
-# meetinattendance.github.com
+# meetingattendance.github.com
 Meeting Attendance
