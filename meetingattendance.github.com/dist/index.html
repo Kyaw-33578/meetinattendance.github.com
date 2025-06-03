@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Meeting Attendance Form</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly Meeting Attendance</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2 id="form-title">Weekly Meeting Attendance</h2>
+
+    <label for="language-select">🌐 Language:</label>
+    <select id="language-select">
+      <option value="en">English</option>
+      <option value="zh">繁體中文</option>
+      <option value="my">မြန်မာ</option>
+    </select>
+
+    <form id="attendance-form">
+      <label for="fullName" id="label-name">Full Name</label>
+      <input type="text" id="fullName" required />
+
+      <label for="employeeId" id="label-id">Employee ID</label>
+      <input type="text" id="employeeId" required />
+
+      <label for="department" id="label-dept">Department</label>
+      <input type="text" id="department" required />
+
+      <label for="date" id="label-date">Date</label>
+      <input type="date" id="date" required />
+
+      <label id="label-sign">E-signature</label>
+      <canvas id="signature-pad" width="450" height="150"></canvas>
+      <button type="button" id="clear-signature">Clear Signature</button>
+
+      <button type="submit" id="submit-btn">Submit</button>
+    </form>
+  </div>
+
+  <script src="code.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
